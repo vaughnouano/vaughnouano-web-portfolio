@@ -53,6 +53,8 @@ html {
 section {
   margin-inline: auto;
   width: 800px;
+  opacity: 0;
+  transition: 0.5s all ease-in-out;
 }
 
 img,
@@ -290,7 +292,7 @@ select {
 }
 
 .contact-card__title {
-  width: 230px;
+  width: 240px;
   font-size: var(--secondary-title-fs);
   font-weight: var(--primary-fw-bold);
   line-height: 3;
@@ -484,6 +486,12 @@ input::placeholder,
 #message {
   resize: none;
   height: 167px;
+}
+
+/* On-scroll-section-animations */
+.appear-card {
+  opacity: 1;
+  transform: translateY(0px);
 }
 
 /* =========================
