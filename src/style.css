@@ -128,9 +128,11 @@ select {
 }
 .feature-card__handbag-icon {
   width: 25px;
+  margin-right: 10px;
 }
 .feature-card__layout-icon {
   width: 30px;
+  margin-right: 10px;
 }
 .contact-card__social-icon {
   width: 40px;
