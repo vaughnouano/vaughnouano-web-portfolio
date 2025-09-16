@@ -453,6 +453,14 @@ input,
   cursor: pointer;
 }
 
+.project_one{
+  background-image: url(../public/img/foxstrat.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: brightness(95%);
+}
+
 .contact-card-grid {
   display: grid;
   gap: 100px 50px;
