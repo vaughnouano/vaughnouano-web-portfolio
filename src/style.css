@@ -92,7 +92,7 @@ select {
    =========== */
 .intro-card {
   height: 100vh;
-  max-height: 760px;
+  max-height: 100%;
 
   display: flex;
   justify-content: center;
@@ -107,7 +107,6 @@ select {
 .contact-card {
   height: 789px;
 }
-
 /* =========== 
    ELEMENTS
    =========== */
@@ -360,6 +359,11 @@ input,
 .hr {
   height: 4px;
   background-color: black;
+}
+
+.resize-on-scroll {
+  max-height: 560px;
+  margin-top: 130px;
 }
 
 .intro-card__button--black {
