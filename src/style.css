@@ -1,3 +1,22 @@
+marquee {
+  background-color: rgba(255, 166, 0, 0.934);
+  color: #000000;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 10px 0px 10px 0px;
+      
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+
+marquee h1{
+  margin-inline: 50px;
+}
+
+
 @font-face {
   font-family: ff;
   src: url(../public/font/HELVETICA.TTF);
