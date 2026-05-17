@@ -5,17 +5,16 @@ marquee {
   font-weight: 600;
   font-size: 20px;
   padding: 10px 0px 10px 0px;
-      
+
   width: 100%;
   position: fixed;
   top: 0;
   z-index: 999;
 }
 
-marquee h1{
+marquee h1 {
   margin-inline: 50px;
 }
-
 
 @font-face {
   font-family: ff;
@@ -295,7 +294,7 @@ select {
   justify-content: space-between;
   align-items: center;
   flex-direction: row-reverse;
-  width: 190px;
+  width: 130px;
 
   font-size: var(--secondary-title-fs);
   font-weight: var(--primary-fw-bold);
@@ -303,12 +302,15 @@ select {
 }
 .feature-card__projects-item {
   width: 100%;
-  height: 200px;
+  aspect-ratio: 16 / 9; /* or try 4 / 3 — match your image's natural ratio */
   background-color: rgb(255, 255, 255);
   border: 3px solid var(--secondary-clr);
   border-radius: 8px;
   box-shadow: 2px 5px 0px var(--secondary-clr);
   transition: 120ms;
+  background-size: 100% 100%;
+  background-position: center;
+  image-rendering: auto; /* explicitly cancels any inherited rendering quirk */
 }
 
 .contact-card__title {
@@ -462,7 +464,7 @@ input,
 }
 .feature-card__projects-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 20px 10px;
   margin-bottom: 5em;
@@ -478,12 +480,18 @@ input,
   cursor: pointer;
 }
 
-.project_one{
-  background-image: url(../public/img/foxstrat.png);
+.project_one {
+  background-image: url(../public/img/SyncSafe-graphic.webp);
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  filter: brightness(95%);
+  /* background-size: cover;
+  background-position: center; */
+}
+
+.project_two {
+  background-image: url(../public/img/lifeRepo-graphic.webp);
+  background-repeat: no-repeat;
+  /* background-size: cover;
+  background-position: center; */
 }
 
 .contact-card-grid {
