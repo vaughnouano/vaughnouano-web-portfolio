@@ -481,14 +481,14 @@ input,
 }
 
 .project_one {
-  background-image: url(../public/img/SyncSafe-graphic.webp);
+  background-image: url(..public/img/SyncSafe-graphic.webp);
   background-repeat: no-repeat;
   /* background-size: cover;
   background-position: center; */
 }
 
 .project_two {
-  background-image: url(../public/img/lifeRepo-graphic.webp);
+  background-image: url(..public/img/lifeRepo-graphic.webp);
   background-repeat: no-repeat;
   /* background-size: cover;
   background-position: center; */
